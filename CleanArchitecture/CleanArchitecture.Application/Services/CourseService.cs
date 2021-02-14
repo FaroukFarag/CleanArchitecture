@@ -1,6 +1,6 @@
 ﻿using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Application.ViewModels;
-using CleanArchitecture.Domain;
+using CleanArchitecture.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;

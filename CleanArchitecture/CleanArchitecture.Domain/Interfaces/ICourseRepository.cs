@@ -3,10 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArchitecture.Domain
+namespace CleanArchitecture.Domain.Interfaces
 {
     public interface ICourseRepository
     {
         IEnumerable<Course> GetCourses();
+        void Add(Course course);
     }
 }
